@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!--favicon -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <link rel="apple-touch-icon" sizes="180x180" href="../css/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../css/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../css/favicon/favicon-16x16.png">
+  <link rel="manifest" href="../css/favicon/site.webmanifest">
+  <link rel="mask-icon" href="../css/favicon/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+
+  <title>Shivansh's Portfolio</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="../css/shop-homepage.css" rel="stylesheet">
+
+</head>
+
+<body style="background-image:url(https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?w=2000);">
+    <script src="../libs/fas.js"></script>
+    <script src="../libs/hammer.min.js"></script>
+    <script type="module">
+        import { App } from '../app.js';
+
+        document.addEventListener("DOMContentLoaded", function(){
+            const app = new App();
+            window.app = app;
+        });
+    </script>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-danger fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img src="../assets/dino.png" width="60"/><b> Shivansh Mahendru</b></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.behance.net/shivtherumbler">Behance</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="http://shivanshmahendru.myportfolio.com">Website</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="mailto:shivansh19csu295@ncuindia.com">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- <div id = "content">
+    <button type="button" id="place-button"> PLACE </button>
+  </div> -->
+  <!-- Page Content -->
+  <div class="container">
+
+    <div class="row">
+
+      <div class="col-lg-3">
+        
+        <h3 class="my-4">Game Dev Portfolio</h3>
+        <div class="list-group">
+          <a href="https://www.instagram.com/manmadegames/" class="list-group-item">Instagram</a>
+          <a href="https://github.com/shivtherumbler" class="list-group-item">Github</a>
+          <a href="https://www.linkedin.com/in/shivansh-mahendru-b05887204/" class="list-group-item">LinkedIn</a>
+        </div>
+
+      </div>
+      <!-- /.col-lg-3 -->
+
+      <div class="col-lg-9">
+
+        <div id="carouselExampleIndicators" class="carousel slide my-4" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active">
+              <img class="d-block img-fluid" src="../assets/ar-shop/openworld.gif" alt="First slide" width="1000">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block img-fluid" src="../assets/ar-shop/train smash.gif" alt="Second slide" width="1000">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block img-fluid" src="../assets/ar-shop/shoot.gif" alt="Third slide" width="1000">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card h-100">
+              <a href="https://shivanshmahendru.myportfolio.com/horizon-the-battle-begins"><img class="card-img-top" src="../assets/ar-shop/nexuslogo.png" alt=""></a>
+              <div class="card-body">
+                <h4 class="card-title">
+                  <a href="https://finalfantasy.fandom.com/wiki/Noctis_Lucis_Caelum">Noctis</a>
+                </h4>
+                <h5>Horizon: The Battle!</h5>
+                <p class="card-text">In this Action-Adventure Open World RPG, follow the story of a young boy who, against all odds, fights back against the Evil Nexus Corp to free what was once his home.</p>
+              </div>
+              <div class="card-footer">
+                <h6>Level:
+                <small class="text-muted">&#9728; &#9728; &#9728; &#9728; &#9728;</small>
+                <button class="ar-button" onclick="window.app.AR();window.app.showObject(1);window.app.remove();"><i class="fas fa-camera"></i></button>
+                <button class="ar-button" onclick="window.app.VR();window.app.showObject(1);window.app.remove();"><i class="fas fa-vr-cardboard"></i></button>
+                </h6>
+              </div>
+              
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card h-100">
+              <a href="https://shivanshmahendru.myportfolio.com/john-wick-revenge-of-the-fallen"><img class="card-img-top" src="../assets/ar-shop/johnwick.png" alt=""></a>
+              <div class="card-body">
+                <h4 class="card-title">
+                  <a href="https://jamesbond.fandom.com/wiki/James_Bond_(Pierce_Brosnan)">James Bond</a>
+                </h4>
+                <h5>Wick vs Bond</h5>
+                <p class="card-text">Experience the story of John Wick: Revenge of the Fallen with this 2D platformer full of twists and turns.</p>
+              </div>
+              <div class="card-footer">
+                <h6>Level:
+                <small class="text-muted">&#9728; &#9728; &#9728;</small>
+                <button class="ar-button" onclick="window.app.AR();window.app.showObject(2);window.app.remove();"><i class="fas fa-camera"></i></button>
+                <button class="ar-button" onclick="window.app.VR();window.app.showObject(2);window.app.remove();"><i class="fas fa-vr-cardboard"></i></button>
+                </h6>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card h-100">
+              <a href="https://shivanshmahendru.myportfolio.com/to-hell-and-back"><img class="card-img-top" src="../assets/ar-shop/apocalypse.png" alt=""></a>
+              <div class="card-body">
+                <h4 class="card-title">
+                  <a href="https://residentevil.fandom.com/wiki/Leon_Scott_Kennedy">Leon S. Kennedy</a>
+                </h4>
+                <h5>To Hell & Back</h5>
+                <p class="card-text">Experience a new take on the classic Resident Evil series in this Survival Horror Third Person Shooter. Stop the apocalypse brought on by zombies and save the world.</p>
+              </div>
+              <div class="card-footer">
+                <h6>Level:
+                <small class="text-muted">&#9728; &#9728; &#9728; &#9728;</small>
+                <button class="ar-button" onclick="window.app.AR();window.app.showObject(3);window.app.remove();"><i class="fas fa-camera"></i></button>
+                <button class="ar-button" onclick="window.app.VR();window.app.showObject(3);window.app.remove();"><i class="fas fa-vr-cardboard"></i></button>
+                </h6>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card h-100">
+              <a href="https://shivanshmahendru.myportfolio.com/the-racing-spectacle"><img class="card-img-top" src="../assets/ar-shop/racing.png" alt=""></a>
+              <div class="card-body">
+                <h4 class="card-title">
+                  <a href="https://en.wikipedia.org/wiki/Car_collection_of_the_29th_Sultan_of_Brunei">Car Collection</a>
+                </h4>
+                <h5>The Racing Spectacle</h5>
+                <p class="card-text">Take on your friends in a head-to-head battle through the tracks in this online multiplayer racing game.</p>
+              </div>
+              <div class="card-footer">
+                <h6>Level:
+                <small class="text-muted">&#9728; &#9728; &#9728; &#9728; &#9728;</small>
+                <button class="ar-button" onclick="window.app.AR();window.app.showObject(4);window.app.remove();"><i class="fas fa-camera"></i></button>
+                <button class="ar-button" onclick="window.app.VR();window.app.showObject(4);window.app.remove();"><i class="fas fa-vr-cardboard"></i></button>
+                </h6>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card h-100">
+              <a href="https://shivanshmahendru.myportfolio.com/the-adventures-of-austin-power"><img class="card-img-top" src="../assets/ar-shop/austin.png" alt=""></a>
+              <div class="card-body">
+                <h4 class="card-title">
+                  <a href="https://rageofbahamut.fandom.com/wiki/Lizard_Knight">Lizard Knight</a>
+                </h4>
+                <h5>Austin Adventurous</h5>
+                <p class="card-text">Experience the adventures of Austin Powers and his friend Tammy in this action-packed 3D platformer filled with cinematics.</p>
+              </div>
+              <div class="card-footer">
+                <h6>Level:
+                <small class="text-muted">&#9728; &#9728; &#9728; &#9728;</small>
+                <button class="ar-button" onclick="window.app.AR();window.app.showObject(5);window.app.remove();"><i class="fas fa-camera"></i></button>
+                <button class="ar-button" onclick="window.app.VR();window.app.showObject(5);window.app.remove();"><i class="fas fa-vr-cardboard"></i></button>
+                </h6>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card h-100">
+              <a href="https://shivanshmahendru.myportfolio.com/game-development-side-work-portfolio"><img class="card-img-top" src="../assets/ar-shop/Level 1.png" alt=""></a>
+              <div class="card-body">
+                <h4 class="card-title">
+                  <a href="#">Crab</a>
+                </h4>
+                <h5>Beach Labyrinth</h5>
+                <p class="card-text">Play through the different mazes in the 2.5D mobile game with a beachy theme. Only on Android devices.</p>
+              </div>
+              <div class="card-footer">
+                <h6>Level:
+                <small class="text-muted">&#9728; &#9728; &#9728;</small>
+                <button class="ar-button" onclick="window.app.AR();window.app.showObject(6);window.app.remove();"><i class="fas fa-camera"></i></button>
+                <button class="ar-button" onclick="window.app.VR();window.app.showObject(6);window.app.remove();"><i class="fas fa-vr-cardboard"></i></button>
+                </h6>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card h-100">
+              <a href="https://shivanshmahendru.myportfolio.com/ar-theme-park-tycoon"><img class="card-img-top" src="../assets/ar-shop/ride.jpg" alt=""></a>
+              <div class="card-body">
+                <h4 class="card-title">
+                  <a href="https://en.wikipedia.org/wiki/Amusement_park">Amusement Park</a>
+                </h4>
+                <h5>AR Theme Park Tycoon</h5>
+                <p class="card-text">The app is a theme park tycoon game in which you may ride virtual and augmented reality versions of the rides you purchase.</p>
+              </div>
+              <div class="card-footer">
+                <h6>Level:
+                <small class="text-muted">&#9728; &#9728; &#9728; &#9728;</small>
+                <button class="ar-button" onclick="window.app.AR();window.app.showObject(7);window.app.remove();"><i class="fas fa-camera"></i></button>
+                <button class="ar-button" onclick="window.app.VR();window.app.showObject(7);window.app.remove();"><i class="fas fa-vr-cardboard"></i></button>
+                </h6>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card h-100">
+              <a href="https://shivanshmahendru.myportfolio.com/cyberglitch"><img class="card-img-top" src="../assets/ar-shop/axe.png" alt=""></a>
+              <div class="card-body">
+                <h4 class="card-title">
+                  <a href="https://www.cyberpunk.net/in/en/">Cyberpunk</a>
+                </h4>
+                <h5>Cyber Glitch</h5>
+                <p class="card-text">Use your parkour skills to traverse through a computer-generated environment as you race against the clock to break out of the game's endless loop.</p>
+              </div>
+              <div class="card-footer">
+                <h6>Level:
+                <small class="text-muted">&#9728; &#9728; &#9728; &#9728; &#9728;</small>
+                <button class="ar-button" onclick="window.app.AR();window.app.showObject(8);window.app.remove();"><i class="fas fa-camera"></i></button>
+                <button class="ar-button" onclick="window.app.VR();window.app.showObject(8);window.app.remove();"><i class="fas fa-vr-cardboard"></i></button>
+                </h6>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card h-100">
+              <a href="https://shivanshmahendru.myportfolio.com/game-development-side-work-portfolio"><img class="card-img-top" src="../assets/ar-shop/sonic.jpg" alt=""></a>
+              <div class="card-body">
+                <h4 class="card-title">
+                  <a href="https://en.wikipedia.org/wiki/Car_collection_of_the_29th_Sultan_of_Brunei">Sonic</a>
+                </h4>
+                <h5>Sonic: Edgerunner</h5>
+                <p class="card-text">Run, run as fast as you can! It's sonic your controlling, gotta go fast!</p>
+              </div>
+              <div class="card-footer">
+                <h6>Level:
+                <small class="text-muted">&#9728; &#9728;</small>
+                <button class="ar-button" onclick="window.app.AR();window.app.showObject(9);window.app.remove();"><i class="fas fa-camera"></i></button>
+                <button class="ar-button" onclick="window.app.VR();window.app.showObject(9);window.app.remove();"><i class="fas fa-vr-cardboard"></i></button>
+                </h6>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <!-- /.row -->
+
+      </div>
+      <!-- /.col-lg-9 -->
+
+    </div>
+    <!-- /.row -->
+
+  </div>
+  <!-- /.container -->
+
+  <!-- Footer -->
+  <footer class="py-5 bg-danger">
+    <div class="container">
+      <p class="m-0 text-center text-white">Shivansh Mahendru &copy; 2022</p>
+    </div>
+    <!-- /.container -->
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="../vendor/jquery/jquery.min.js"></script>
+  <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
